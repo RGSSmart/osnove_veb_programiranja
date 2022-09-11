@@ -1,0 +1,32 @@
+/*  */
+* {
+    background-color: aqua;
+}
+/* Naglasavanje veoma vaznog propretija u CSS pravilu */
+h1 {
+    background-color: brown !important;
+}
+
+#naslov {
+    background-color: aquamarine;
+}
+/* Dodavanje CSS pravila na event-ove */
+h1:hover {
+
+    color: red;
+    text-decoration: dotted;
+}
+
+a:visited {
+    text-decoration: overline;
+}
+
+input:focus {
+    background-color: lightblue;
+}
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

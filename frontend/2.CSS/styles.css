@@ -1,0 +1,17 @@
+/* Univerzalni selektor koji vazi za sve elemente u dokumentu*/
+* {
+    background-color: aqua;
+}
+/* Selektor grupe tagova */
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Selektro po id-u */
+#klik{
+    text-decoration: none;
+}
+
+/* Selektor po klasi */
+.boder {
+    border: 1px solid;
+}
