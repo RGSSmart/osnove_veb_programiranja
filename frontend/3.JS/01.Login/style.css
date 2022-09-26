@@ -1,0 +1,13 @@
+.container{
+    margin-left: 30%;
+    width: 40%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.field{
+    
+    gap: 10px;
+    /* justify-content: center; */
+}
