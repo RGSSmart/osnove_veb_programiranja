@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igra sa apsolutnom pozicijom</title>
+    <style>
+        /* Primer koriscenja apsolutnih pozicija u CSS-u */
+        .ivica {
+            border: 1px solid;
+            text-align: center;
+            width: 20%;
+            height: 80px;
+            position: absolute;
+            top: 40%;
+        }
+        .centar {
+            /* Od leve strane pomeri se za 40% od ukupne sirine ekrana */
+            left: 40%;
+        }
+        .levo {
+            /* Od leve strane pomeri se za 10% od ukupne sirine ekrana */
+            left: 10%; 
+        }
+        .desno {
+            /*Ovo je moglo ili levo 70% ili desno 10% */
+            left: 70%
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ivica levo">
+        <h2>Ovo je leva strana</h2>
+    </div>
+    <div class="ivica centar">
+        <h2> Ovo je centar </h2>
+    </div>
+    <div class="ivica desno">
+        <h2>Ova je desna</h2>
+    </div>
+    
+
+</body>
+
+</html>
